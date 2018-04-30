@@ -35,7 +35,7 @@ export default function (src) {
           },
         },
       },
-    }), findImports);
+    }), findImport);
     const res = JSON.parse(output);
     resolve({
       contracts: Object.keys(res.contracts).reduce((o, k) => {

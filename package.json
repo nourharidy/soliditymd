@@ -1,6 +1,6 @@
 {
-  "name": "solmd",
-  "version": "0.2.3",
+  "name": "soliditymd",
+  "version": "0.0.1",
   "description": "Markdown documentation generator for Solidity",
   "engines": {
     "node": ">=4"
@@ -16,7 +16,7 @@
     "precommit": "./node_modules/pre-commit/hook"
   },
   "bin": {
-    "solmd": "./lib/bin/solmd.js"
+    "soliditymd": "./lib/bin/soliditymd.js"
   },
   "keywords": [
     "solidity",
@@ -27,9 +27,9 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/dpilch/solmd.git"
+    "url": "https://github.com/nourharidy/soliditymd.git"
   },
-  "author": "Dane Pilcher <danepilch@gmail.com>",
+  "author": "Nour Haridy <nour@lamarkaz.com>",
   "license": "MIT",
   "devDependencies": {
     "babel-cli": "^6.26.0",

@@ -1,17 +1,15 @@
-# solmd
+# Soliditymd
 
-Generate lightweight markdown documentation for Solidity contracts.
-
-[![Build Status](https://travis-ci.org/dpilch/solmd.svg?branch=master)](https://travis-ci.org/dpilch/solmd)
+Generate markdown documentation for Solidity contracts.
 
 ## Installation
 
 ```
-npm install -g solmd
-solmd <src> [--dest <target>]
+npm install -g --unsafe-perm soliditymd
+soliditymd <src> [--dest <target>]
 ```
 
-Output will default to `sol.md`;
+Output will default to `docs.md`;
 
 Uses [Ethereum Natural Specification Format](https://github.com/ethereum/wiki/wiki/Ethereum-Natural-Specification-Format) to generate method details.
 

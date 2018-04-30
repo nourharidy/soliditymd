@@ -8,9 +8,9 @@ const args = minimist(process.argv.slice(2));
 
 if (typeof args.help !== 'undefined' || args._.length === 0) {
   const { version } = JSON.parse(fs.readFileSync(path.join(__dirname, '../../package.json')).toString());
-  process.stdout.write(`solmd v${version}
+  process.stdout.write(`soliditymd v${version}
 
-usage: solmd <solidity> [--dest] <target>
+usage: soliditymd <target.sol> [--dest] <target>
 
 parameters:
 
